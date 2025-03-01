@@ -7,3 +7,7 @@ mensaje personalizado basado en la nota. Las notas se asignan de la siguiente ma
     + Si la nota está entre 60 y 74, el estudiante aprueba con "Suficiente".
     + Si la nota es menor de 60, el estudiante no aprueba.*/
 
+let nota = Number(prompt('Igresa el número de la nota que obtuviste'));
+
+//impresión para pruebas
+console.log(nota);
