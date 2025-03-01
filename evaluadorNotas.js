@@ -11,3 +11,9 @@ let nota = Number(prompt('Igresa el número de la nota que obtuviste'));
 
 //impresión para pruebas
 console.log(nota);
+
+//evaluar si es Excelente
+if(nota >= 90){
+    alert('Nota', nota, 'Excelente');
+    console.log('Nota', nota, 'Excelente');
+}
