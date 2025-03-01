@@ -17,11 +17,15 @@ if(nota >= 90){
     alert('Excelente');
     console.log('Nota', nota, 'Excelente');
 }
-else if(nota >= 75 || nota <= 89){
+else if(nota >= 75 && nota <= 89){
     alert('Bien');
     console.log('Nota', nota, 'Bien');
 }
-else if(nota >= 60 || nota <= 74){
+else if(nota >= 60 && nota <= 74){
     alert('Suficiente');
     console.log('Nota', nota, 'Suficiente');
+}
+else{
+    alert('No aprobaste');
+    console.log('Nota', nota, 'no aprobaste');
 }
