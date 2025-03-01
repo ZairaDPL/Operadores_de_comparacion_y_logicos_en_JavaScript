@@ -14,6 +14,10 @@ console.log(nota);
 
 //evaluar si es Excelente
 if(nota >= 90){
-    alert('Nota', nota, 'Excelente');
+    alert('Excelente');
     console.log('Nota', nota, 'Excelente');
+}
+else if(nota >= 75 || nota <= 89){
+    alert('Bien');
+    console.log('Nota', nota, 'Bien');
 }
