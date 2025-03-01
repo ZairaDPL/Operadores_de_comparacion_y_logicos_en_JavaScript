@@ -21,3 +21,7 @@ else if(nota >= 75 || nota <= 89){
     alert('Bien');
     console.log('Nota', nota, 'Bien');
 }
+else if(nota >= 60 || nota <= 74){
+    alert('Suficiente');
+    console.log('Nota', nota, 'Suficiente');
+}
